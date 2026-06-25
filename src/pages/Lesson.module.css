@@ -1,0 +1,22 @@
+.page {
+  position: relative;
+}
+
+.back {
+  position: absolute;
+  top: 16px;
+  left: var(--page-padding);
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-lavender);
+  opacity: 0.6;
+  transition: opacity 0.15s ease;
+  z-index: 10;
+}
+
+.back:hover {
+  opacity: 1;
+}

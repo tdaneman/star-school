@@ -1,0 +1,142 @@
+.page {
+  position: relative;
+  padding: 0 var(--page-padding) 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.back {
+  position: absolute;
+  top: 16px;
+  left: var(--page-padding);
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-lavender);
+  opacity: 0.6;
+  transition: opacity 0.15s ease;
+}
+
+.back:hover {
+  opacity: 1;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding-top: 56px;
+}
+
+.symbol {
+  font-size: 48px;
+  line-height: 1;
+  color: var(--color-celestial-gold);
+  filter: drop-shadow(0 0 14px rgba(212, 184, 106, 0.3));
+}
+
+.name {
+  font-family: var(--font-display);
+  font-size: var(--text-planet-name-quiz);
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  color: var(--color-celestial-gold);
+}
+
+.prompt {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--color-lavender);
+  opacity: 0.55;
+  letter-spacing: 0.08em;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.choice {
+  width: 100%;
+  min-height: var(--touch-target);
+  padding: 14px 18px;
+  border-radius: var(--card-radius);
+  background-color: var(--color-deep-navy);
+  border: 1px solid rgba(200, 184, 232, 0.12);
+  color: var(--color-stardust-white);
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: left;
+  transition: border-color 0.15s ease, background-color 0.15s ease, opacity 0.15s ease;
+}
+
+.choice.idle:not(:disabled):hover {
+  border-color: rgba(200, 184, 232, 0.3);
+}
+
+.choice.correct {
+  border-color: var(--color-soft-green);
+  background-color: rgba(74, 158, 122, 0.12);
+  color: var(--color-soft-green);
+}
+
+.choice.wrong {
+  border-color: var(--color-muted-red);
+  background-color: rgba(180, 80, 80, 0.12);
+  color: var(--color-muted-red);
+}
+
+.choice.dim {
+  opacity: 0.3;
+}
+
+.feedback {
+  border-radius: var(--box-radius);
+  padding: 14px 16px;
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.feedbackCorrect {
+  background-color: rgba(74, 158, 122, 0.1);
+  border-left: 2px solid var(--color-soft-green);
+  color: var(--color-soft-green);
+}
+
+.feedbackWrong {
+  background-color: rgba(180, 80, 80, 0.1);
+  border-left: 2px solid var(--color-muted-red);
+  color: var(--color-lavender);
+}
+
+.nextButton {
+  width: 100%;
+  min-height: var(--touch-target);
+  background: var(--gradient-primary);
+  color: var(--color-stardust-white);
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  border-radius: var(--card-radius);
+  transition: opacity 0.15s ease;
+}
+
+.nextButton:hover {
+  opacity: 0.85;
+}
+
+.nextButton:active {
+  opacity: 0.7;
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Inter:wght@300;400;500&display=swap');
+
+:root {
+  /* Colors */
+  --color-space-black: #0a0a1a;
+  --color-deep-navy: #0d0d2b;
+  --color-cosmic-purple: #7b5ea7;
+  --color-lavender: #c8b8e8;
+  --color-stardust-white: #e8e4f0;
+  --color-celestial-gold: #d4b86a;
+  --color-nebula-pink: #e05c8a;
+  --color-teal-glow: #3ec6c6;
+  --color-soft-green: #4a9e7a;
+  --color-muted-red: #b45050;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, var(--color-deep-navy), var(--color-cosmic-purple));
+  --gradient-accent: linear-gradient(135deg, var(--color-nebula-pink), var(--color-teal-glow));
+
+  /* Typography */
+  --font-display: 'Cinzel', serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Type scale */
+  --text-wordmark: 13px;
+  --text-planet-name: 28px;
+  --text-planet-name-quiz: 20px;
+  --text-section-label: 11px;
+  --text-body: 13px;
+  --text-shadow: 12px;
+  --text-card-meta: 10px;
+
+  /* Spacing & radius */
+  --page-padding: 20px;
+  --card-radius: 12px;
+  --box-radius: 10px;
+  --nav-height: 60px;
+  --touch-target: 44px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-space-black);
+  color: var(--color-stardust-white);
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  font-weight: 300;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  max-width: 390px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}

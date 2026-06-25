@@ -1,0 +1,15 @@
+.page {
+  padding: 0 0 24px;
+}
+
+.header {
+  padding: 20px var(--page-padding) 16px;
+}
+
+.wordmark {
+  font-family: var(--font-display);
+  font-size: var(--text-wordmark);
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--color-lavender);
+}

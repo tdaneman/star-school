@@ -1,0 +1,232 @@
+[
+  {
+    "id": "sun",
+    "name": "Sun",
+    "symbol": "☉",
+    "cycle": "1-year cycle",
+    "rules": "Leo",
+    "tagline": "The center that doesn't compete for light.",
+    "archetype": "The Sun is the archetype of identity itself — not a trait among traits, but the thing the other traits organize around. Mythically solar: a single source that radiates rather than reaches, that simply IS rather than asks permission to be. Where other planets describe a function, the Sun describes a presence — the core self that stays recognizable across every role it plays.",
+    "shadow": "The same instinct that holds a stable center can mistake being witnessed for being real — needing an audience to confirm an identity that should be able to stand on its own.",
+    "wordPills": ["I … am", "radiate", "express", "lead", "create"],
+    "quizChoices": [
+      { "text": "Am. Radiate. Express. Lead.", "correct": true },
+      { "text": "Feel. Remember. Protect. Nourish.", "correct": false },
+      { "text": "Communicate. Translate. Connect. Name.", "correct": false },
+      { "text": "Love. Attract. Desire. Beautify.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. The Sun is identity itself — the core self that radiates rather than reaches.",
+      "wrong": "Not quite. The Sun is the archetype of identity — Am, Radiate, Express, Lead."
+    },
+    "next": "moon",
+    "status": "locked"
+  },
+  {
+    "id": "moon",
+    "name": "Moon",
+    "symbol": "☽",
+    "cycle": "1-month cycle",
+    "rules": "Cancer",
+    "tagline": "What needs tending before anything else can happen.",
+    "archetype": "The Moon is the archetype of feeling, memory, and instinct — the layer of experience that responds before thought arrives. It's the fastest-moving body in the sky, mirroring how quickly mood and need can shift underneath a steadier surface. Where the Sun is who you are, the Moon is what you require to feel safe enough to be that.",
+    "shadow": "The same instinct that registers what's needed can mistake every passing feeling for an emergency — reacting to the weather instead of checking the climate.",
+    "wordPills": ["I … feel", "remember", "protect", "nourish", "respond"],
+    "quizChoices": [
+      { "text": "Feel. Remember. Protect. Nourish.", "correct": true },
+      { "text": "Am. Radiate. Express. Lead.", "correct": false },
+      { "text": "Drive. Pursue. Compete. Assert.", "correct": false },
+      { "text": "Communicate. Translate. Connect. Name.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. The Moon is feeling and instinct — what you require to feel safe enough to be yourself.",
+      "wrong": "Not quite. The Moon is the archetype of feeling — Feel, Remember, Protect, Nourish."
+    },
+    "next": "mercury",
+    "status": "locked"
+  },
+  {
+    "id": "mercury",
+    "name": "Mercury",
+    "symbol": "☿",
+    "cycle": "88-day cycle",
+    "rules": "Gemini, Virgo",
+    "tagline": "The translator between experience and language.",
+    "archetype": "Mercury is the archetype of mind in motion — perceiving, naming, comparing, explaining. Mythically the messenger god, moving between worlds without fully belonging to any of them. Mercury doesn't generate meaning on its own; it carries meaning from one place to another, which is why its gift is articulation rather than depth.",
+    "shadow": "The same instinct that moves fluently between ideas can mistake talking about something for having actually sat with it.",
+    "wordPills": ["I … communicate", "translate", "connect", "name", "carry"],
+    "quizChoices": [
+      { "text": "Communicate. Translate. Connect. Name.", "correct": true },
+      { "text": "Feel. Remember. Protect. Nourish.", "correct": false },
+      { "text": "Love. Attract. Desire. Beautify.", "correct": false },
+      { "text": "Expand. Explore. Believe. Grow.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. Mercury is mind in motion — carrying meaning from one place to another.",
+      "wrong": "Not quite. Mercury is the archetype of mind — Communicate, Translate, Connect, Name."
+    },
+    "next": "venus",
+    "status": "locked"
+  },
+  {
+    "id": "venus",
+    "name": "Venus",
+    "symbol": "♀",
+    "cycle": "7-month cycle",
+    "rules": "Taurus, Libra",
+    "tagline": "What's worth wanting.",
+    "archetype": "Venus is the archetype of value and attraction — the instinct that decides what's beautiful, what's worth keeping, what's worth connecting to. Mythically this is desire as discernment, not indulgence: Venus doesn't want everything, she wants well. This is also the planet of relationship as mirror — what we find attractive often reveals what we believe we're allowed to have.",
+    "shadow": "The same instinct that knows what's beautiful can start basing its own worth on whether it's found beautiful by someone else.",
+    "wordPills": ["I … love", "attract", "desire", "play", "beautify"],
+    "quizChoices": [
+      { "text": "Love. Attract. Desire. Beautify.", "correct": true },
+      { "text": "Communicate. Translate. Connect. Name.", "correct": false },
+      { "text": "Drive. Pursue. Compete. Assert.", "correct": false },
+      { "text": "Structure. Endure. Build. Discipline.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. Venus is value and attraction — desire as discernment, not indulgence.",
+      "wrong": "Not quite. Venus is the archetype of attraction — Love, Attract, Desire, Beautify."
+    },
+    "next": "mars",
+    "status": "locked"
+  },
+  {
+    "id": "mars",
+    "name": "Mars",
+    "symbol": "♂",
+    "cycle": "2-year cycle",
+    "rules": "Aries",
+    "tagline": "The will before the plan.",
+    "archetype": "Mars is the archetype of drive — the raw energy that moves toward a goal before strategy has fully formed. Mythically Ares: not calculation, but appetite for the fight itself, for the test of strength. Where the Sun asks \"who am I,\" Mars asks \"what do I want, and what am I willing to do to get it\" — desire converted directly into action.",
+    "shadow": "The same instinct that moves decisively can mistake aggression for the only form action comes in — reaching for force when patience would actually work better.",
+    "wordPills": ["I … drive", "pursue", "compete", "assert", "fight"],
+    "quizChoices": [
+      { "text": "Drive. Pursue. Compete. Assert.", "correct": true },
+      { "text": "Love. Attract. Desire. Beautify.", "correct": false },
+      { "text": "Expand. Explore. Believe. Grow.", "correct": false },
+      { "text": "Am. Radiate. Express. Lead.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. Mars is drive — desire converted directly into action before strategy forms.",
+      "wrong": "Not quite. Mars is the archetype of drive — Drive, Pursue, Compete, Assert."
+    },
+    "next": "jupiter",
+    "status": "locked"
+  },
+  {
+    "id": "jupiter",
+    "name": "Jupiter",
+    "symbol": "♃",
+    "cycle": "12-year cycle",
+    "rules": "Sagittarius",
+    "tagline": "The horizon that keeps moving back.",
+    "archetype": "Jupiter is the archetype of expansion — the instinct to grow past a current boundary, whether that boundary is geographic, intellectual, or philosophical. Mythically the king of the gods, but more functionally: the impulse toward \"more\" — more meaning, more experience, more belief in what's possible. Jupiter's gift is genuine optimism, the kind that's earned by actually testing how far things can stretch.",
+    "shadow": "The same instinct that reaches for more can treat \"enough\" as a failure of ambition — never landing long enough to actually metabolize a gain.",
+    "wordPills": ["I … expand", "explore", "believe", "grow", "optimise"],
+    "quizChoices": [
+      { "text": "Expand. Explore. Believe. Grow.", "correct": true },
+      { "text": "Drive. Pursue. Compete. Assert.", "correct": false },
+      { "text": "Structure. Endure. Build. Discipline.", "correct": false },
+      { "text": "Disrupt. Innovate. Liberate. Awaken.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. Jupiter is expansion — genuine optimism earned by testing how far things can stretch.",
+      "wrong": "Not quite. Jupiter is the archetype of expansion — Expand, Explore, Believe, Grow."
+    },
+    "next": "saturn",
+    "status": "locked"
+  },
+  {
+    "id": "saturn",
+    "name": "Saturn",
+    "symbol": "♄",
+    "cycle": "29-year cycle",
+    "rules": "Capricorn",
+    "tagline": "What holds weight.",
+    "archetype": "Saturn is the archetype of structure and consequence — the instinct that builds slowly, tests itself against reality, and earns trust through time rather than declaration. Mythically the old god, time itself: not punishment, but the simple fact that some things can only be built by enduring the process required to build them. Saturn's gift is durability — what survives contact with difficulty.",
+    "shadow": "The same instinct that takes things seriously can mistake difficulty for proof of worth — believing nothing counts unless it was hard-won.",
+    "wordPills": ["I … structure", "endure", "build", "discipline", "master"],
+    "quizChoices": [
+      { "text": "Structure. Endure. Build. Discipline.", "correct": true },
+      { "text": "Expand. Explore. Believe. Grow.", "correct": false },
+      { "text": "Disrupt. Innovate. Liberate. Awaken.", "correct": false },
+      { "text": "Drive. Pursue. Compete. Assert.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. Saturn is structure and consequence — durability earned through time, not declaration.",
+      "wrong": "Not quite. Saturn is the archetype of structure — Structure, Endure, Build, Discipline."
+    },
+    "next": "uranus",
+    "status": "locked"
+  },
+  {
+    "id": "uranus",
+    "name": "Uranus",
+    "symbol": "⛢",
+    "cycle": "84-year cycle",
+    "rules": "Aquarius",
+    "tagline": "The break that has to happen.",
+    "archetype": "Uranus is the archetype of disruption — sudden insight or change that arrives faster than gradual growth could have produced it. Mythically tied to sky and sudden upheaval: this is the planet of the moment a pattern becomes visible precisely because it just broke. Uranus doesn't negotiate with what's outdated — it interrupts it.",
+    "shadow": "The same instinct that breaks what's outdated can break what was actually still working — mistaking disruption itself for progress.",
+    "wordPills": ["I … disrupt", "innovate", "liberate", "awaken", "break"],
+    "quizChoices": [
+      { "text": "Disrupt. Innovate. Liberate. Awaken.", "correct": true },
+      { "text": "Structure. Endure. Build. Discipline.", "correct": false },
+      { "text": "Dissolve. Dream. Merge. Transcend.", "correct": false },
+      { "text": "Expand. Explore. Believe. Grow.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. Uranus is disruption — the moment a pattern becomes visible precisely because it broke.",
+      "wrong": "Not quite. Uranus is the archetype of disruption — Disrupt, Innovate, Liberate, Awaken."
+    },
+    "next": "neptune",
+    "status": "locked"
+  },
+  {
+    "id": "neptune",
+    "name": "Neptune",
+    "symbol": "♆",
+    "cycle": "165-year cycle",
+    "rules": "Pisces",
+    "tagline": "Where the edges stop being solid.",
+    "archetype": "Neptune is the archetype of dissolution — the dissolving of the line between self and other, real and imagined, literal and symbolic. Mythically oceanic: not a single wave but the whole undifferentiated water beneath it. Neptune's gift is genuine transcendence — access to meaning that doesn't reduce neatly to fact.",
+    "shadow": "The same instinct that dissolves rigid boundaries can dissolve useful ones too — mistaking confusion about what's real for spiritual depth.",
+    "wordPills": ["I … dissolve", "dream", "merge", "transcend", "imagine"],
+    "quizChoices": [
+      { "text": "Dissolve. Dream. Merge. Transcend.", "correct": true },
+      { "text": "Disrupt. Innovate. Liberate. Awaken.", "correct": false },
+      { "text": "Transform. Strip. Renew. Compel.", "correct": false },
+      { "text": "Structure. Endure. Build. Discipline.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. Neptune is dissolution — access to meaning that doesn't reduce neatly to fact.",
+      "wrong": "Not quite. Neptune is the archetype of dissolution — Dissolve, Dream, Merge, Transcend."
+    },
+    "next": "pluto",
+    "status": "locked"
+  },
+  {
+    "id": "pluto",
+    "name": "Pluto",
+    "symbol": "♇",
+    "cycle": "248-year cycle",
+    "rules": "Scorpio",
+    "tagline": "What has to end before something else can begin.",
+    "archetype": "Pluto is the archetype of transformation through removal — the force that strips away whatever's no longer true so something more real has room to exist. Mythically the underworld: not death as an ending, but death as the condition for any real renewal. Pluto doesn't negotiate with what's already finished, even when letting go is the hardest part.",
+    "shadow": "The same instinct that clears away what's false can stay suspicious of everything indefinitely — mistaking constant vigilance for actual transformation.",
+    "wordPills": ["I … transform", "strip", "renew", "regenerate", "compel"],
+    "quizChoices": [
+      { "text": "Transform. Strip. Renew. Compel.", "correct": true },
+      { "text": "Dissolve. Dream. Merge. Transcend.", "correct": false },
+      { "text": "Disrupt. Innovate. Liberate. Awaken.", "correct": false },
+      { "text": "Feel. Remember. Protect. Nourish.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. Pluto is transformation through removal — stripping away what's no longer true.",
+      "wrong": "Not quite. Pluto is the archetype of transformation — Transform, Strip, Renew, Compel."
+    },
+    "next": null,
+    "status": "locked"
+  }
+]

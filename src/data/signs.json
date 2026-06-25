@@ -1,0 +1,290 @@
+[
+  {
+    "id": "aries",
+    "name": "Aries",
+    "symbol": "♈",
+    "modality": "Cardinal",
+    "element": "Fire",
+    "ruler": "Mars",
+    "tagline": "The first move.",
+    "archetype": "Aries is the archetype of initiation — the moment before deliberation, when impulse becomes action. Mythically, this is Ares: not strategy, but the raw will to engage, to meet the world head-on rather than wait for permission. Cardinal and fire together mean Aries doesn't build momentum, it IS momentum — the spark that starts something, not the structure that sustains it.",
+    "shadow": "The same instinct that moves first can move without looking — mistaking speed for direction.",
+    "wordPills": ["I … initiate", "begin", "assert", "dare", "lead"],
+    "quizChoices": [
+      { "text": "Initiate. Assert. Begin. Dare.", "correct": true },
+      { "text": "Romance. Luxury. Art. Elegance.", "correct": false },
+      { "text": "Structure. Discipline. Time. Consequence.", "correct": false },
+      { "text": "Dissolve. Dream. Merge. Imagine.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. Aries is pure initiation — the impulse that moves before deliberation.",
+      "wrong": "Not quite. Aries is the archetype of initiation — Initiate, Assert, Begin, Dare."
+    },
+    "next": "taurus",
+    "status": "active"
+  },
+  {
+    "id": "taurus",
+    "name": "Taurus",
+    "symbol": "♉",
+    "modality": "Fixed",
+    "element": "Earth",
+    "ruler": "Venus",
+    "tagline": "What's worth keeping.",
+    "archetype": "Taurus is the archetype of value made tangible — the instinct to slow down long enough to actually taste, touch, and hold onto what matters. Where Venus elsewhere can be about attraction in motion, here she settles: this is desire that wants to stay, not just arrive. Fixed and earth together mean Taurus isn't slow by accident — stability is the point, not a failure to move faster.",
+    "shadow": "The same instinct that holds onto what's good can refuse to release what's no longer good — mistaking stillness for safety.",
+    "wordPills": ["I … hold", "savour", "build", "value", "stay"],
+    "quizChoices": [
+      { "text": "Hold. Savour. Build. Stay.", "correct": true },
+      { "text": "Initiate. Assert. Begin. Dare.", "correct": false },
+      { "text": "Connect. Exchange. Compare. Move.", "correct": false },
+      { "text": "Protect. Nurture. Remember. Belong.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. Taurus is value made tangible — the instinct to hold onto what matters.",
+      "wrong": "Not quite. Taurus is the archetype of value — Hold, Savour, Build, Stay."
+    },
+    "next": "gemini",
+    "status": "locked"
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "symbol": "♊",
+    "modality": "Mutable",
+    "element": "Air",
+    "ruler": "Mercury",
+    "tagline": "The space between two things.",
+    "archetype": "Gemini is the archetype of connection through exchange — the instinct to gather information, compare it, and carry it somewhere else. Mythically tied to Mercury, the messenger who moves between worlds without belonging fully to either. Mutable and air together mean Gemini's intelligence isn't depth, it's range — the gift of holding two ideas at once without needing to resolve them into one.",
+    "shadow": "The same instinct that holds multiple truths can avoid choosing any one of them — mistaking options for commitment.",
+    "wordPills": ["I … connect", "exchange", "compare", "question", "move"],
+    "quizChoices": [
+      { "text": "Connect. Exchange. Compare. Question.", "correct": true },
+      { "text": "Hold. Savour. Build. Stay.", "correct": false },
+      { "text": "Radiate. Create. Perform. Shine.", "correct": false },
+      { "text": "Balance. Relate. Harmonise. Weigh.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. Gemini is connection through exchange — gathering, comparing, carrying ideas.",
+      "wrong": "Not quite. Gemini is the archetype of exchange — Connect, Compare, Question, Move."
+    },
+    "next": "cancer",
+    "status": "locked"
+  },
+  {
+    "id": "cancer",
+    "name": "Cancer",
+    "symbol": "♋",
+    "modality": "Cardinal",
+    "element": "Water",
+    "ruler": "the Moon",
+    "tagline": "Where the inside is kept.",
+    "archetype": "Cancer is the archetype of belonging — the instinct to build an inside that's separate from the outside, a place where feeling doesn't have to perform. Mythically the crab: soft within, armored without, moving sideways rather than head-on. Cardinal and water together mean Cancer doesn't wait for safety to arrive — it actively builds the container that makes safety possible.",
+    "shadow": "The same instinct that builds a safe inside can wall it off entirely — mistaking distance from the world for protection from it.",
+    "wordPills": ["I … protect", "nurture", "remember", "hold", "belong"],
+    "quizChoices": [
+      { "text": "Protect. Nurture. Remember. Belong.", "correct": true },
+      { "text": "Initiate. Assert. Begin. Dare.", "correct": false },
+      { "text": "Transform. Penetrate. Endure. Investigate.", "correct": false },
+      { "text": "Connect. Exchange. Compare. Question.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. Cancer is the archetype of belonging — building the container that makes safety possible.",
+      "wrong": "Not quite. Cancer is about belonging — Protect, Nurture, Remember, Belong."
+    },
+    "next": "leo",
+    "status": "locked"
+  },
+  {
+    "id": "leo",
+    "name": "Leo",
+    "symbol": "♌",
+    "modality": "Fixed",
+    "element": "Fire",
+    "ruler": "the Sun",
+    "tagline": "Being seen as yourself.",
+    "archetype": "Leo is the archetype of self-expression as offering — the instinct to take up space not to dominate it, but to be genuinely witnessed in it. Mythically solar: a single, central source that doesn't compete for light, it simply radiates. Fixed and fire together mean this isn't a passing performance — Leo's expression is steady, consistent, an identity held rather than a mood indulged.",
+    "shadow": "The same instinct that wants to be seen can come to need being seen — mistaking attention for confirmation that one exists at all.",
+    "wordPills": ["I … radiate", "create", "perform", "lead", "shine"],
+    "quizChoices": [
+      { "text": "Radiate. Create. Perform. Shine.", "correct": true },
+      { "text": "Refine. Analyse. Serve. Discern.", "correct": false },
+      { "text": "Protect. Nurture. Remember. Belong.", "correct": false },
+      { "text": "Initiate. Assert. Begin. Dare.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. Leo is self-expression as offering — the instinct to radiate, not compete.",
+      "wrong": "Not quite. Leo is the archetype of expression — Radiate, Create, Perform, Shine."
+    },
+    "next": "virgo",
+    "status": "locked"
+  },
+  {
+    "id": "virgo",
+    "name": "Virgo",
+    "symbol": "♍",
+    "modality": "Mutable",
+    "element": "Earth",
+    "ruler": "Mercury",
+    "tagline": "Making it work, in practice.",
+    "archetype": "Virgo is the archetype of refinement — the instinct to take a raw thing and improve it through attention, repetition, and care for detail. Mercury here is grounded rather than airy: not ideas in motion, but ideas applied. Mutable and earth together mean Virgo adapts constantly, but always in service of function — the goal isn't change for its own sake, it's getting closer to correct.",
+    "shadow": "The same instinct that improves can never declare anything finished — mistaking refinement for the absence of flaw.",
+    "wordPills": ["I … refine", "analyse", "serve", "improve", "discern"],
+    "quizChoices": [
+      { "text": "Refine. Analyse. Serve. Discern.", "correct": true },
+      { "text": "Radiate. Create. Perform. Shine.", "correct": false },
+      { "text": "Hold. Savour. Build. Stay.", "correct": false },
+      { "text": "Explore. Expand. Philosophise. Seek.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. Virgo is the archetype of refinement — ideas applied, always getting closer to correct.",
+      "wrong": "Not quite. Virgo is about refinement — Refine, Analyse, Serve, Discern."
+    },
+    "next": "libra",
+    "status": "locked"
+  },
+  {
+    "id": "libra",
+    "name": "Libra",
+    "symbol": "♎",
+    "modality": "Cardinal",
+    "element": "Air",
+    "ruler": "Venus",
+    "tagline": "What balance costs.",
+    "archetype": "Libra is the archetype of relationship as a mirror — the instinct to understand oneself through what's reflected back by another. Venus here is relational rather than sensory: not \"what do I want,\" but \"what does this exchange require to stay fair.\" Cardinal and air together mean Libra actively initiates the search for balance — it doesn't drift into fairness, it works for it.",
+    "shadow": "The same instinct that weighs both sides can stall in the weighing — mistaking indecision for impartiality.",
+    "wordPills": ["I … balance", "relate", "harmonise", "weigh", "bridge"],
+    "quizChoices": [
+      { "text": "Balance. Relate. Harmonise. Weigh.", "correct": true },
+      { "text": "Connect. Exchange. Compare. Question.", "correct": false },
+      { "text": "Transform. Penetrate. Endure. Investigate.", "correct": false },
+      { "text": "Refine. Analyse. Serve. Discern.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. Libra is relationship as mirror — actively working for balance, not drifting into it.",
+      "wrong": "Not quite. Libra is the archetype of balance — Balance, Relate, Harmonise, Weigh."
+    },
+    "next": "scorpio",
+    "status": "locked"
+  },
+  {
+    "id": "scorpio",
+    "name": "Scorpio",
+    "symbol": "♏",
+    "modality": "Fixed",
+    "element": "Water",
+    "ruler": "Pluto",
+    "tagline": "What's underneath.",
+    "archetype": "Scorpio is the archetype of depth — the instinct to go past the surface explanation to whatever's actually driving it, including the parts that aren't comfortable to look at. Pluto here isn't destruction for its own sake; it's the force that strips away what's no longer true so something more real can exist. Fixed and water together mean this intensity doesn't dissipate — Scorpio holds on until the transformation is complete.",
+    "shadow": "The same instinct that seeks what's real can suspect everything of hiding something — mistaking vigilance for clarity.",
+    "wordPills": ["I … transform", "penetrate", "endure", "investigate", "regenerate"],
+    "quizChoices": [
+      { "text": "Transform. Penetrate. Endure. Investigate.", "correct": true },
+      { "text": "Balance. Relate. Harmonise. Weigh.", "correct": false },
+      { "text": "Explore. Expand. Philosophise. Seek.", "correct": false },
+      { "text": "Protect. Nurture. Remember. Belong.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. Scorpio is depth — stripping away what's no longer true until transformation is complete.",
+      "wrong": "Not quite. Scorpio is the archetype of depth — Transform, Penetrate, Endure, Investigate."
+    },
+    "next": "sagittarius",
+    "status": "locked"
+  },
+  {
+    "id": "sagittarius",
+    "name": "Sagittarius",
+    "symbol": "♐",
+    "modality": "Mutable",
+    "element": "Fire",
+    "ruler": "Jupiter",
+    "tagline": "The bigger picture.",
+    "archetype": "Sagittarius is the archetype of meaning-seeking — the instinct to look past the immediate situation toward the larger pattern, belief, or horizon it belongs to. Jupiter here is expansive: more interested in the philosophy behind the fact than the fact itself. Mutable and fire together mean Sagittarius moves toward whatever expands its understanding next — restless not from instability, but from genuine appetite.",
+    "shadow": "The same instinct that reaches for the bigger picture can skip past the inconvenient details inside it — mistaking scope for accuracy.",
+    "wordPills": ["I … explore", "expand", "philosophise", "seek", "roam"],
+    "quizChoices": [
+      { "text": "Explore. Expand. Philosophise. Seek.", "correct": true },
+      { "text": "Transform. Penetrate. Endure. Investigate.", "correct": false },
+      { "text": "Build. Endure. Achieve. Structure.", "correct": false },
+      { "text": "Radiate. Create. Perform. Shine.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. Sagittarius is meaning-seeking — restless from genuine appetite, not instability.",
+      "wrong": "Not quite. Sagittarius is the archetype of expansion — Explore, Expand, Philosophise, Seek."
+    },
+    "next": "capricorn",
+    "status": "locked"
+  },
+  {
+    "id": "capricorn",
+    "name": "Capricorn",
+    "symbol": "♑",
+    "modality": "Cardinal",
+    "element": "Earth",
+    "ruler": "Saturn",
+    "tagline": "What gets built to last.",
+    "archetype": "Capricorn is the archetype of structure — the instinct to take a long view and do the often-unglamorous work that a long view requires. Saturn here is not punishment, it's accountability: the discipline of building something that will still be standing later. Cardinal and earth together mean Capricorn doesn't wait for conditions to be ideal — it starts the work and lets the structure accumulate over time.",
+    "shadow": "The same instinct that builds for the long term can defer the present indefinitely — mistaking later for the only time that counts.",
+    "wordPills": ["I … build", "endure", "achieve", "structure", "master"],
+    "quizChoices": [
+      { "text": "Build. Endure. Achieve. Structure.", "correct": true },
+      { "text": "Explore. Expand. Philosophise. Seek.", "correct": false },
+      { "text": "Innovate. Disrupt. Envision. Rebel.", "correct": false },
+      { "text": "Refine. Analyse. Serve. Discern.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. Capricorn is structure — starting the work and letting it accumulate over time.",
+      "wrong": "Not quite. Capricorn is the archetype of structure — Build, Endure, Achieve, Master."
+    },
+    "next": "aquarius",
+    "status": "locked"
+  },
+  {
+    "id": "aquarius",
+    "name": "Aquarius",
+    "symbol": "♒",
+    "modality": "Fixed",
+    "element": "Air",
+    "ruler": "Uranus",
+    "tagline": "The exception that reveals the rule.",
+    "archetype": "Aquarius is the archetype of disruption in service of progress — the instinct to notice where a system or convention has stopped serving people, and to break from it on principle. Uranus here is sudden, not gradual: insight that arrives as a jolt rather than a slow build. Fixed and air together mean Aquarius holds its convictions with real stubbornness — this isn't contrarianism for its own sake, it's loyalty to an idea over loyalty to the group.",
+    "shadow": "The same instinct that breaks from convention can break from connection too — mistaking detachment for objectivity.",
+    "wordPills": ["I … innovate", "disrupt", "envision", "rebel", "awaken"],
+    "quizChoices": [
+      { "text": "Innovate. Disrupt. Envision. Rebel.", "correct": true },
+      { "text": "Build. Endure. Achieve. Structure.", "correct": false },
+      { "text": "Dissolve. Dream. Merge. Imagine.", "correct": false },
+      { "text": "Balance. Relate. Harmonise. Weigh.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. Aquarius is disruption in service of progress — loyalty to an idea over loyalty to the group.",
+      "wrong": "Not quite. Aquarius is the archetype of disruption — Innovate, Disrupt, Envision, Rebel."
+    },
+    "next": "pisces",
+    "status": "locked"
+  },
+  {
+    "id": "pisces",
+    "name": "Pisces",
+    "symbol": "♓",
+    "modality": "Mutable",
+    "element": "Water",
+    "ruler": "Neptune",
+    "tagline": "Where the boundaries dissolve.",
+    "archetype": "Pisces is the archetype of dissolution — the instinct to merge with whatever is being felt, witnessed, or imagined, rather than stay separate from it. Neptune here is the dissolving of edges: between self and other, real and imagined, here and elsewhere. Mutable and water together mean Pisces doesn't hold a fixed shape — it takes on the shape of whatever it's currently absorbing.",
+    "shadow": "The same instinct that merges with what it feels can lose track of where it ends and the feeling begins — mistaking absorption for connection.",
+    "wordPills": ["I … dissolve", "imagine", "merge", "transcend", "dream"],
+    "quizChoices": [
+      { "text": "Dissolve. Dream. Merge. Imagine.", "correct": true },
+      { "text": "Innovate. Disrupt. Envision. Rebel.", "correct": false },
+      { "text": "Transform. Penetrate. Endure. Investigate.", "correct": false },
+      { "text": "Explore. Expand. Philosophise. Seek.", "correct": false }
+    ],
+    "quizFeedback": {
+      "correct": "Right. Pisces is dissolution — merging with what's felt rather than staying separate from it.",
+      "wrong": "Not quite. Pisces is the archetype of dissolution — Dissolve, Dream, Merge, Imagine."
+    },
+    "next": null,
+    "status": "locked"
+  }
+]
