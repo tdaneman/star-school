@@ -14,6 +14,10 @@ export default function Quiz() {
   const collection = DATA[type]
   const item = collection?.find(entry => entry.id === id)
 
+  const [choices] = useState(() =>
+    item ? [...item.quizChoices].sort(() => Math.random() - 0.5) : []
+  )
+
   if (!item) return <Navigate to="/" replace />
 
   const answered = selected !== null
@@ -47,7 +51,7 @@ export default function Quiz() {
       </div>
 
       <div className={styles.choices}>
-        {item.quizChoices.map((choice, i) => {
+        {choices.map((choice, i) => {
           let state = 'idle'
           if (answered) {
             if (choice === selected) state = isCorrect ? 'correct' : 'wrong'
