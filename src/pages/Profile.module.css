@@ -4,24 +4,69 @@
   align-items: center;
   justify-content: center;
   min-height: calc(100dvh - var(--nav-height));
-  gap: 12px;
+  gap: 32px;
   padding: var(--page-padding);
   text-align: center;
 }
 
 .heading {
   font-family: var(--font-display);
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 400;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: var(--color-lavender);
+  opacity: 0.5;
 }
 
-.note {
+.stats {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.count {
+  font-family: var(--font-display);
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--color-celestial-gold);
+  line-height: 1;
+}
+
+.total {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--color-lavender);
+  opacity: 0.35;
+}
+
+.label {
+  font-family: var(--font-display);
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--color-lavender);
+  opacity: 0.5;
+}
+
+.divider {
+  width: 1px;
+  height: 48px;
+  background-color: rgba(200, 184, 232, 0.15);
+}
+
+.prompt {
   font-family: var(--font-body);
   font-size: var(--text-body);
   font-weight: 300;
   color: var(--color-lavender);
-  opacity: 0.4;
+  opacity: 0.35;
 }

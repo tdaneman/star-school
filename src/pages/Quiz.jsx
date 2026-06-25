@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useParams, useNavigate, Navigate } from 'react-router-dom'
 import signs from '../data/signs.json'
 import planets from '../data/planets.json'
+import { useProgress } from '../context/ProgressContext'
 import styles from './Quiz.module.css'
 
 const DATA = { signs, planets }
@@ -10,6 +11,7 @@ export default function Quiz() {
   const { type, id } = useParams()
   const navigate = useNavigate()
   const [selected, setSelected] = useState(null)
+  const { markDone } = useProgress()
 
   const collection = DATA[type]
   const item = collection?.find(entry => entry.id === id)
@@ -26,6 +28,7 @@ export default function Quiz() {
   function handleChoice(choice) {
     if (answered) return
     setSelected(choice)
+    if (choice.correct) markDone(type, id)
   }
 
   function handleNext() {

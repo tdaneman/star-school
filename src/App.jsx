@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { ProgressProvider } from './context/ProgressContext'
 import BottomNav from './components/BottomNav'
 import ScrollToTop from './components/ScrollToTop'
 import Home from './pages/Home'
@@ -17,6 +18,7 @@ function Stub({ name }) {
 
 export default function App() {
   return (
+    <ProgressProvider>
     <BrowserRouter>
       <ScrollToTop />
       <div className={styles.layout}>
@@ -34,5 +36,6 @@ export default function App() {
         <BottomNav />
       </div>
     </BrowserRouter>
+    </ProgressProvider>
   )
 }
