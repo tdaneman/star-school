@@ -16,9 +16,15 @@ export default function Quiz() {
   const collection = DATA[type]
   const item = collection?.find(entry => entry.id === id)
 
-  const [choices] = useState(() =>
-    item ? [...item.quizChoices].sort(() => Math.random() - 0.5) : []
-  )
+  const [choices] = useState(() => {
+    if (!item) return []
+    const arr = [...item.quizChoices]
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]]
+    }
+    return arr
+  })
 
   if (!item) return <Navigate to="/" replace />
 
