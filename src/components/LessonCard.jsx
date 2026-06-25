@@ -22,9 +22,11 @@ export default function LessonCard({ item, type }) {
       <p className={styles.tagline}>{item.tagline}</p>
 
       <div className={styles.pills}>
-        {item.wordPills.map((pill, i) => (
-          <span key={i} className={styles.pill}>{pill}</span>
-        ))}
+        <span className={styles.pillPrefix}>I …</span>
+        {item.wordPills.map((pill, i) => {
+          const label = i === 0 ? pill.replace(/^I\s*[…\.]+\s*/i, '') : pill
+          return <span key={i} className={styles.pill}>{label}</span>
+        })}
       </div>
 
       <p className={styles.archetype}>{item.archetype}</p>

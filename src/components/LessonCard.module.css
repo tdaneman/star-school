@@ -57,7 +57,19 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  align-items: center;
   justify-content: center;
+}
+
+.pillPrefix {
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  font-weight: 300;
+  font-style: italic;
+  color: var(--color-lavender);
+  opacity: 0.45;
+  margin-right: 2px;
+  flex-shrink: 0;
 }
 
 .pill {
